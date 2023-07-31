@@ -1,0 +1,224 @@
+// 3rd-party Plugins
+@import "~highlight.js/styles/googlecode.css";
+@import "~perfect-scrollbar/css/perfect-scrollbar.css";
+
+// Theme Styles
+@import "app/_metronic/_assets/sass/style.react.scss";
+
+@import "src/app/styles/state-type.scss";
+
+.example-highlight>pre {
+  background: none transparent !important;
+  margin: 0 !important;
+  padding-top: 0.5rem;
+
+  code {
+    overflow-y: auto;
+    display: block;
+
+    span {
+      background: none transparent !important;
+    }
+  }
+}
+
+.json>pre {
+  background: none #fff !important;
+}
+
+.example-code>.json {
+  background: none #fff !important;
+}
+
+.symbol.symbol-45>svg {
+  width: 100%;
+  max-width: 45px;
+  height: 45px;
+}
+
+.react-bootstrap-table {
+  overflow-x: auto;
+}
+
+.react-bootstrap-table>table>thead>tr>th .filter-label {
+  display: block !important;
+
+}
+
+.react-bootstrap-table {
+  th {
+    outline: none;
+
+    &.sortable {
+      .svg-icon-sort {
+        opacity: 0;
+      }
+
+      &:hover {
+        cursor: pointer;
+
+        .svg-icon-sort {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .table.table-head-custom thead tr {
+    .sortable-active {
+      color: $primary !important;
+    }
+  }
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.ant-btn-primary {
+  background-color: $primary !important;
+  border-color: $primary !important;
+}
+
+.ant-input {
+  height: calc(1.5em + 1.3rem + 2px);
+}
+
+.ant-calendar-today-btn {
+  display: none !important;
+}
+
+.date-picker-error {
+
+  .ant-input,
+  .ant-input:focus,
+  .ant-input:hover {
+    border-color: red !important;
+  }
+
+}
+
+.datatable-container-has-error {
+  border: 1px solid red;
+  border-radius: 3px;
+
+  .invalid-feedback {
+    display: inline;
+  }
+}
+
+.card-header {
+  .invalid-feedback {
+    display: inline;
+  }
+}
+
+.parameter-value{
+  div div div div {
+    white-space: pre-wrap!important;
+  }
+}
+
+[data_tip] {
+  position:relative;
+
+}
+[data_tip]:before {
+  content:'';
+  content:'';
+  display: none;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #1BC5BD;
+  position:absolute;
+  top:40px;
+  left:35px;
+  z-index:8;
+  font-size:0;
+  line-height:0;
+  width:0;
+  height:0;
+}
+[data_tip]:after {
+  display: none;
+  content:attr(data_tip);
+  position:absolute;
+  top:45px;
+  left:0px;
+  padding:5px 8px;
+  background:#1BC5BD;
+  color:#fff;
+  z-index:9;
+  font-size: 1.25em;
+  height:26px;
+  line-height:18px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  white-space:nowrap;
+  word-wrap:normal;
+}
+[data_tip]:hover:before,
+[data_tip]:hover:after {
+  display:block;
+}
+
+.nopadding-margin {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.short-description{
+  resize: none;
+}
+.detail-modal .modal-dialog{
+  @media (min-width: 576px){
+    max-width: 750px;
+  }
+}
+
+.detail-image-modal .modal-dialog {
+  @media (min-width: 576px) {
+    max-width: fit-content;
+  }
+}
+
+.contact-group {
+  .form-group {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.budget-total-amount{
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+
+.reward-detail-card {
+    .reward-detail-row{
+
+    }
+    .reward-detail-column{
+        padding-left: 25px;
+      span{
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+
+    .reward-detail-bottom{
+      margin-bottom: 40px;
+    }
+  .reward-information{
+    font-size: 16px;
+    font-weight: normal!important;
+
+  }
+}
+
+.login-logo{
+  width: auto;
+  height: 390px;
+}

@@ -1,0 +1,1 @@
+export default SINGLE_USE_CODE = "SINGLE_USE_CODE";

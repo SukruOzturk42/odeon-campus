@@ -1,0 +1,113 @@
+{
+  "COMPONENT.SELECT.DEFAULT.PLACEHOLDER": "Seç",
+  "COMPONENT.TAGINPUT.DEFAULT.PLACEHOLDER": "Etiket",
+
+  "TRANSLATOR.SELECT": "Lütfen dil seçiniz",
+
+  "AUTH.GENERAL.SUBMIT_BUTTON": "Gönder",
+  "AUTH.GENERAL.BACK_BUTTON": "Geri",
+  "AUTH.GENERAL.PRIVACY": "Gizlilik",
+  "AUTH.GENERAL.LEGAL": "Yasal",
+  "AUTH.GENERAL.CONTACT": "İletişim",
+
+  "AUTH.USER.INFORMATIONS": "Kullanıcı bilgileri",
+  "AUTH.USER.INFORMATIONS.PLEASE": "Lütfen kullanıcı adınızı ve şifrenizi giriniz.",
+  "AUTH.INPUT.USERNAME": "Kullanıcı adı",
+  "AUTH.INPUT.PASSWORD": "Şifre",
+  "AUTH.LOGIN.BUTTON": "Giriş Yap",
+  "AUTH.LOGOUT.BUTTON": "Çıkış Yap",
+
+  "AUTH.VALIDATION.REQUIRED_FIELD": "Gerekli alan",
+  "AUTH.VALIDATION.MIN_LENGTH_FIELD": "Minimum alan uzunluğu:",
+  "AUTH.VALIDATION.MAX_LENGTH_FIELD": "Maksimum alan uzunluğu:",
+  "AUTH.VALIDATION.INVALID_FIELD": "Alan geçerli değil",
+
+  "SESSION_HAS_ENDED": "Oturumunuz sonlanmıştır.",
+  "SERVER_ERROR": "Sunucu hatası.",
+
+  "ASIDE.MENU.COMPANY.NAME": "Şirket",
+  "ASIDE.MENU.WORKSPACE.NAME": "Çalışma alanı",
+  "ASIDE.MENU.TASK.NAME": "Task",
+  "ASIDE.MENU.TASK-PARTICIPANT.NAME": "Katılımcı",
+  "ASIDE.MENU.DASHBOARD.NAME": "Pano",
+  "ASIDE.MENU.TASK.MANAGEMENT": "Satış Fırsatları",
+
+
+  "ASIDE.MENU.DASHBOARD.TITLE": "DASHBOARD",
+  "ASIDE.MENU.CREATE.CAMPAIGN.TITLE": "KAMPANYA TANIMLAMA",
+  "ASIDE.MENU.CAMPAIGN.LIST.TITLE": "KAMPANYA LİSTELEME",
+  "ASIDE.MENU.CREATE.RULE.TITLE": "KURAL TANIMLAMA",
+  "ASIDE.MENU.UPLOAD.CODE.TITLE": "KOD YÜKLEME",
+  "ASIDE.MENU.CONTACT.TITLE": "MUSTERI ISLEMLERI",
+  "ASIDE.MENU.CAMPAIGN.DASHBOARD.TITLE": "KAZANIM DETAYLARI",
+  "ASIDE.MENU.POLICY.SALE.TITLE": "Satış Ödüllendirme",
+  "ASIDE.MENU.ADMIN.TITLE" : "Admin",
+  "ASIDE.MENU.TASK.MANAGEMENT.TITLE": "SATIŞ FIRSATLARI",
+  
+
+  "TASK.CREATE.CAMPANY.NAME": "Şirket",
+  "TASK.CREATE.CAMPANY.USER": "Kullanıcı",
+  "TASK.CREATE.CAMPANY.WORKSPACE": "Çalışma alanı",
+  "TASK.CREATE.CAMPANY.SECTON": "Bölüm",
+
+  "ADD.SUB.TASK": "Alt task ekle",
+  "ADD.TASK.PARTICIPANT": "Katılımcı ekle",
+  "UPDATE.TASK.PARTICIPANT": "Katılımcı güncelle",
+  "UPDATE.TASK.STATE": "Durum güncelle",
+  "UPDATE.TASK.STATUS": "Statü güncelle",
+  "UPDATE.TASK.COMMENT": "Yorumları güncelle",
+  "UPLOAD.FILE": "Dosya yükle",
+
+  "COMPANY.MAIL": "Mail = ",
+  "COMPANY.ADDRESS": "Adres = ",
+  "COMPANY.DESCRIPTION": "Açıklama = ",
+  "COMPANY.WEBADDRESS": "Web Adresi = ",
+  "COMPANY.PHONE.NUMBER": "Telefon Numarası = ",
+
+  "ID": "ID",
+  "COMMENT.DETAIL": "Yorum detayları",
+  "CREATED.DATE": "Oluşturulma tarihi",
+  "TASK.PARTICIPANT.COMMENT": "Katılımcı yorumları",
+  "SAVE": "Kaydet",
+  "DELETE": "Sil",
+  "USERNAME:": "Kullanıcı adı",
+  "FULLNAME": "Ad soyad",
+  "ADD.PARTICIPANT": "Katılımcı ekle",
+  "PARTICIPANT": "Katılımcı",
+
+  "NEW.TASK": "Yeni task",
+  "TASK.NAME": "Task adı",
+  "SUBJECT": "Konu",
+  "DESCRIPTION": "Açıklama",
+  "PRIORITY": "Öncelik",
+  "TASK.TYPE": "Task tipi",
+  "WORKSPACE": "Çalışma alanı",
+  "SECTION": "Bölüm",
+  "PARTICIPATE": "Katılımcı",
+  "TAG": "Etiket",
+  "CREATE.TASK": "Task oluştur",
+  "UPDATE.TASK": "Taskı güncelle",
+  "STATUS": "Statü",
+  "ADD.NOTE": "Sub task ekle",
+  "BACK.TO.THE.PAGE": "Geri dön",
+  "REMOVE": "Sil",
+  "SUB.TASK": "Alt task",
+
+  "WARNING": "Uyarı",
+  "ARE.YOU.SURE": "Emin misiniz ?",
+  "DUE.DATE": "Teslim tarihi",
+
+  "ADD.COMMENT": "Yorum ekle",
+  "CREATE.TASK.DOCUMENT": "Dosya yükle",
+  "CREATE.DOCUMENT": "Dosya yükle",
+
+  "TASK.STATE": "Task state",
+  "TASK.STATUS": "Task statü",
+  "CHANGE.STATE": "Durum değiştir",
+  "CHANGE.STATUS": "Statü değiştir",
+  "TASK.PARTICIPANT.STATE": "Task katılımcı durumu",
+
+  "SUB.TASK.UPDATE": "Update",
+
+  "SOMETHING.WENT.WRONG.HERE": "OOPS! Bir şeyler yanlış gitti."
+}
