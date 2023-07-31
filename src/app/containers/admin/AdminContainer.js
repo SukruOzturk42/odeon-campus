@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
-import AdminView from "./AdminView";
+import React, { useContext } from "react";
 import { cmSubMenuRoutes } from "./cm";
 import { GlobalContext } from "../../context/GlobalState";
 import { PageContentArea } from "../../components/base-component/PageContentArea";
