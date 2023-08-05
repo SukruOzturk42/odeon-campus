@@ -86,10 +86,10 @@
     "webpack-rtl-plugin": "2.0.0"
   },
   "scripts": {
-    "start": "react-scripts start -o",
+    "start": "react-scripts --openssl-legacy-provider start -o",
     "start:preprod": "env-cmd -f .env.preprod react-scripts start -o",
     "start:staging": "env-cmd -f .env.staging react-scripts start -o",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "build:staging": "env-cmd -f .env.staging react-scripts build",
     "build:preprod": "env-cmd -f .env.preprod react-scripts build",
     "build:prod": "env-cmd -f .env.prod react-scripts build",
